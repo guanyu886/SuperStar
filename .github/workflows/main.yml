@@ -40,10 +40,10 @@ jobs:
         run: |
           cat > config.ini <<EOF
           [tiku]
-          provider=TikuYanxi
-          endpoint=$TIKU_ENDPOINT
-          key=$TIKU_KEY
-          model=$TIKU_MODEL
+          provider=Ai
+          endpoint="https://api.deepseek.com"
+          key=sk-dff4ebc4fbdd48efa353c4cbbcd13a59
+          model=deepseek-flash
           min_interval_seconds=5
           http_proxy=
           check_llm_connection=true
